@@ -6,7 +6,6 @@ A powerful foundry where user questions are shaped into precise, context-enriche
 
 1. **Front-End Choice:**
    - **SvelteKit** for minimalistic UI, simplicity, and fast development.
-   - Alternatively, **Next.js** if you prefer React and existing familiarity.
 
 2. **Styling:**
    - Use **Tailwind CSS** for quick, consistent, and minimalistic styling.
@@ -14,7 +13,7 @@ A powerful foundry where user questions are shaped into precise, context-enriche
 3. **LLM Integration (Ollama) & RAG:**
    - Containerize **Ollama** alongside your application.
    - Integrate **LangGraph** to build the retrieval-augmented generation flow.
-   - Use a vector store (e.g., **Qdrant** or `pgvector` with Postgres) for document retrieval.
+   - Use a vector store Milvus for document retrieval.
 
 4. **Streaming Responses:**
    - Implement **Server-Sent Events (SSE)** in the backend.
